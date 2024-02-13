@@ -1,0 +1,21 @@
+class a{
+//a(){
+	//}
+	a(int f){
+		System.out.println("single");
+	}
+}
+class b extends a{
+	b(int f){
+		System.out.println("salem");
+	}
+	b(String b){
+		super(5);
+		System.out.println("hello");
+	}
+	public static void main(String []args)
+	{
+	
+		b obj1=new b(56);
+	}
+}
